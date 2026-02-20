@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme - Material 3 Dark -->
+    <style name="Base.Theme.GhareluDiary" parent="Theme.Material3.Dark.NoActionBar">
+
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorPrimaryContainer">#3700B3</item>
+        <item name="colorOnPrimaryContainer">#BB86FC</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="colorSecondaryContainer">#018786</item>
+        <item name="colorOnSecondaryContainer">#03DAC5</item>
+
+        <!-- Background & Surface colors -->
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnBackground">#FFFFFF</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="colorSurfaceVariant">#2C2C2C</item>
+        <item name="colorOnSurfaceVariant">#B3B3B3</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#B3B3B3</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Disable elevation overlay -->
+        <item name="elevationOverlayEnabled">false</item>
+    </style>
+
+    <style name="Theme.GhareluDiary" parent="Base.Theme.GhareluDiary" />
+
+</resources>

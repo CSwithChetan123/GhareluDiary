@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".GSignIn">
+
+    <!-- App Icon -->
+
+    <!-- App Name -->
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="32dp"
+        android:padding="24dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_notext" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Household Staff Tracking"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#1A1A1A"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track Every Home Service, Effortlessly"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginBottom="48dp"
+        android:gravity="center" />
+
+    <!-- Google Sign In Button -->
+    <LinearLayout
+        android:id="@+id/GSignInClick"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/google_button_bg"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/google"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue with Google"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:fontFamily="@font/poppins_regular"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

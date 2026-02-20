@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "324357062024",
+    "project_id": "ghareludiary",
+    "storage_bucket": "ghareludiary.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324357062024:android:ef9bf76b4c4701dcf6ce3d",
+        "android_client_info": {
+          "package_name": "com.ghareludiary.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324357062024-7grudqgn7nj8f91i7ld4uhiu0e2oi3vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ghareludiary.app",
+            "certificate_hash": "015c18caf88e1ca3c72125df79a710a925270927"
+          }
+        },
+        {
+          "client_id": "324357062024-8a67h9a0c6h6odl4f33lsvtnru2b2kq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuLRvc2NTd71lEK7BpkuZETulCQcSLFXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324357062024-8a67h9a0c6h6odl4f33lsvtnru2b2kq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
